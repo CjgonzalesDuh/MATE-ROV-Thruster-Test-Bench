@@ -1,0 +1,21 @@
+#include <HX711_ADC.h>
+#include <EEPROM.h>
+
+  const int HX711_dout = 3; //where x is a pin
+  const int HX711_sck = 4;  //where y is a pin
+
+  //HX711 Constructor - Creates an object for the load cell to report the raw counts from the load cell
+  HX711_ADC LoadCell(HX711_dout, HX711_sck);
+
+  const int calVal_calVal_eepromAdress = 0;
+  unsigned long t = 0;
+
+void setup() {
+  // put your setup code here, to run once:
+
+}
+
+void loop() {
+  // put your main code here, to run repeatedly:
+
+}
